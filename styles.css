@@ -1,0 +1,56 @@
+body{
+    background: rgb(212,208,200);
+}
+
+@keyframes mymove {
+    from {color: black;}
+    to {color: red;}
+}
+
+p{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    
+}
+.message{
+    color: black;
+    font-size: 20px;
+    height: auto;
+    width: 200px;
+}
+
+.claim{
+    animation: mymove 0.2s infinite;
+    font-size: 25px;
+    width: auto;
+}
+
+#winner{
+    color: red;
+}
+
+.smiley{
+    height: auto;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center{
+    margin-top: 25px;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    margin: 5px;
+    width: 70px;
+    font-size: 17px;
+}
